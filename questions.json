@@ -1,7 +1,16 @@
-{"questions": [
 {
-    "question1": "What is the supreme law of the land?"
-}, {
-    "question2": "What does the Constitution do?"
+        "questions": [
+        {
+            "question": "What is the supreme law of the land?",
+            "answer": "The Constitution"
+        },
+        {
+            "question": "What does the Constitution do?",
+            "answer": [
+                "Sets up the government",
+                "Defines the government",
+                "Protects basic rights of Americans"
+            ]
+        }
+    ]
 }
-]}

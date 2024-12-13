@@ -1,10 +1,28 @@
 import json
 
+
+
 with open("questions.json", "r") as f:
-    questions = json.load(f)
+    data = json.load(f)
 
-for i in questions["questions"]:
-    print(i)
+def test():
+
+    for i in data["questions"]:
+        question = i["question"]
+        answer = [i["answer"]]
+        position = []
+
+        ask = input(f"Question: {question} ")
+
+        if ask in answer:
+            print("Correct")
+        else:
+            print("Incorrect")
+            print(f"Answer: {answer}")
 
 
-# print(questions["questions"][0]["question1"])
+
+
+
+
+test()
